@@ -118,7 +118,7 @@ export default [
   },
 
   {
-    title 'Curb Your Enthusiasm',
+    title: 'Curb Your Enthusiasm',
 
     cardImage: 'https://ksassets.timeincuk.net/wp/uploads/sites/55/2016/06/2014CurbYourEnthusiasm_080413.jpg',
 
@@ -179,8 +179,8 @@ export default [
     description: 'Four single friends -- comic Jerry Seinfeld, bungling George Costanza, frustrated working gal Elaine Benes and eccentric neighbor Cosmo Kramer -- deal with the absurdities of everyday life in New York City.',
 
     episodes: 173,
- },
-    cast: [ },
+    
+    cast: [
       { actor: 'Jerry Seinfeld', character: 'Jerry Seinfeld', episodes: 173 },
       { actor: 'Michael Richards', character: 'Kramer', episodes: 173 },
       { actor: 'Jason Alexander', character: 'George Costanza', episodes: 173 },

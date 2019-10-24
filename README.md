@@ -6,6 +6,8 @@ for legal reasons, we'll play some arbitrary video files in stead of the actual 
 
 
 
+we'll also build some views for viewing the cast of our shows, and for each actor / character - which shows they are in
+
 
 
 

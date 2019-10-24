@@ -1,22 +1,45 @@
-.App {
-  text-align: center;
+.Show {
+  position: relative;
+  
+  width: 100vw;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
+.Show .show-hero {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Show .show-shade {
+  position: absolute;
+  top: 40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background-image: linear-gradient(transparent, #000a 15%, #000e 40%);
+}
+
+.Show .show-title {
+  position: absolute;
+  left: 20px;
+  top: 40%;
+
+  font-size: 1.75rem;
+  background-color: #222c;
   color: white;
+  padding: 7px;
+  border-radius: 3px;
 }
 
-.App-link {
-  color: #09d3ac;
+.Show .show-description {
+  position: absolute;
+  top: 60%;
+  left: 50px;
+  right: 50px;
+
+  color: white;
+  font-weight: 600;
 }
